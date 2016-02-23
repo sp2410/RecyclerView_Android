@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/fragstart"
+    android:background="#29A9D2" android:scaleType="fitXY"
+    tools:context=".StartFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="#29A9D2"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+
+        <Button
+            android:id="@+id/aboutme"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="ABOUT ME"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#29A9D2"
+            android:textStyle="bold"
+            android:background="@drawable/btnlayout"/>
+
+
+        <Button
+            android:id="@+id/task1"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="TASK 1"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#29A9D2"
+            android:textStyle="bold"
+            android:background="@drawable/btnlayout"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>
